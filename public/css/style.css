@@ -11,3 +11,146 @@ h5,
 h6 {
 	margin: 0;
 }
+
+:root {
+	--grey-100: rgb(243, 244, 246);
+	--grey-200: rgb(229, 231, 235);
+	--grey-400: rgb(156, 163, 175);
+}
+
+main {
+	margin-left: 86px;
+}
+
+#image1 {
+	width: 250px;
+	height: 250px;
+	margin-right: 32px;
+}
+
+#image2 {
+	width: 80px;
+	height: 80px;
+}
+
+#player {
+	width: 100%;
+	height: 80px;
+	z-index: 1;
+
+	border-radius: 1px;
+	border-color: var(--grey-200);
+	border-style: solid;
+
+	display: flex;
+	position: -webkit-sticky;
+	position: sticky;
+	bottom: 0;
+	background: white;
+}
+
+#queue {
+	background: var(--grey-100);
+	width: 330px;
+	padding: 32px;
+	position: absolute;
+	position: -webkit-sticky;
+	right: 0;
+	top: 0;
+	height: 100%;
+
+	border-radius: 1px;
+	border-color: var(--grey-200);
+	border-style: solid;
+}
+
+#hitDescription {
+	display: flex;
+	flex-direction: column;
+}
+
+#insideDesc {
+	margin-top: auto;
+}
+
+#deezerLogo {
+	width: 150px;
+	height: 30px;
+}
+
+#playlist-info {
+	display: flex;
+	flex-direction: row;
+	margin-top: 86px;
+	margin-bottom: 48px;
+}
+
+#insidePlayer {
+	margin-left: 16px;
+	margin-right: 16px;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	vertical-align: middle;
+}
+
+.song {
+	margin-bottom: 32px;
+	height: 16px;
+}
+
+.playerButton {
+	width: 40px;
+	height: 40px;
+	margin-left: 16px;
+	margin-left: 16px;
+}
+
+.emptyQueue {
+	color: var(--grey-400);
+	align-content: center;
+	vertical-align: middle;
+}
+
+.title1 {
+	font-family: "Noto Sans";
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 1.25/60px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.subtitle1 {
+	font-family: "Noto Sans";
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.5/24px;
+}
+
+.body1 {
+	font-family: "Noto Sans";
+	font-size: 14px;
+	line-height: 1.5/21px;
+}
+
+.subtitle2 {
+	font-family: "Noto Sans";
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.5/21px;
+}
+
+.body2 {
+	font-family: "Noto Sans";
+	font-size: 14px;
+	line-height: 1.5/21px;
+}
+
+.overline {
+	font-family: "Noto Sans";
+	font-size: 14px;
+	line-height: 1.5/21px;
+}
